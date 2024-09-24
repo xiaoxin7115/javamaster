@@ -39,12 +39,6 @@ Java项目视频--链接: https://pan.baidu.com/s/14r0u9pE7veQARRqJ7CXhkw?pwd=1j
 
 
 
-
-
-## 服务内容
-- 程序源码&数据库文件
-- 对应文档
-
 ## 开发工具及技术
 
 **开发工具**
