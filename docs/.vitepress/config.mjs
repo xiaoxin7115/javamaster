@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+const base = "/javamaster/"; // [!code ++]
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Java糕手",
