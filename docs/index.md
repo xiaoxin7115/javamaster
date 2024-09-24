@@ -18,7 +18,7 @@ hero:
        text: 博客
        link: /blog/blog
      - theme: brand
-       text: 其他
+       text: 亮点
        link: /main/others
 
 

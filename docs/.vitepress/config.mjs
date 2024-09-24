@@ -40,6 +40,7 @@ export default defineConfig({
           items: [
             { text: '项目定制', link: '/main/design' },
             { text: '源码', link: '/main/code' },
+            { text: '亮点', link: '/main/others' },
           ]
         }
       ]
