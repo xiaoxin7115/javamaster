@@ -5,7 +5,12 @@ export default defineConfig({
   base,
   title: "Java糕手",
   description: "全栈开发，项目定制",
-  themeConfig: {
+  head: [
+    // 设置 favor.ico，.vuepress/public 下
+    [
+      'link', { rel: 'icon', href: 'favicon.png' }
+    ]],
+    themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'Java糕手',
     logo: '/logo.jpg',
