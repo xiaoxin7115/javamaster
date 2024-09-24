@@ -11,8 +11,8 @@ export default defineConfig({
     logo: '/logo.jpg',
     nav: [
       { text: '网站首页', link: '/' },
-      { text: '项目定制', link: '/main/项目定制' },
-      { text: '源码', link: '/main/源码' },
+      { text: '项目定制', link: '/main/design' },
+      { text: '源码', link: '/main/code' },
       { text: '技术博客', link: '/blog/blog' }
     ],
 
@@ -31,8 +31,8 @@ export default defineConfig({
           collapsed: true,
           text: '服务介绍',
           items: [
-            { text: '项目定制', link: '/main/项目定制' },
-            { text: '源码', link: '/main/源码' },
+            { text: '项目定制', link: '/main/design' },
+            { text: '源码', link: '/main/code' },
           ]
         }
       ]

@@ -10,16 +10,16 @@ hero:
   actions:
      - theme: brand
        text: 项目定制
-       link: /main/项目定制
+       link: /main/design
      - theme: brand
        text: 源码
-       link: /main/源码
+       link: /main/code
      - theme: brand
        text: 博客
        link: /blog/blog
      - theme: brand
        text: 其他
-       link: /main/其他
+       link: /main/others
 
 
 features:
