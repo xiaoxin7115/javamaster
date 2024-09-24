@@ -8,30 +8,35 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'Java糕手',
-    logo: `${base}/logo.jpg`,
+    logo: '/logo.jpg',
     nav: [
       { text: '网站首页', link: '/' },
-      { text: '项目定制', link: '/项目定制' },
-      { text: '源码', link: '/源码' },
-      { text: '项目定制', link: '/项目定制' }
+      { text: '项目定制', link: '/main/项目定制' },
+      { text: '源码', link: '/main/源码' },
+      { text: '技术博客', link: '/blog/blog' }
     ],
 
-    sidebar: [
-      {
-        text: '服务介绍',
-        items: [
-          { text: '项目定制', link: '/项目定制' },
-          { text: '源码', link: '/源码' }
-        ]
-      },
-      {
-        text: '博客目录',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/blog': [
+        {
+          collapsed: true,
+          text: '博客文章',
+          items: [
+            { text: '博客', link: '/blog/blog' },
+          ]
+        },
+      ],
+      '/main': [
+        {
+          collapsed: true,
+          text: '服务介绍',
+          items: [
+            { text: '项目定制', link: '/main/项目定制' },
+            { text: '源码', link: '/main/源码' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: {
