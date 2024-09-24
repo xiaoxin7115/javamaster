@@ -6,7 +6,7 @@ hero:
   name: "java糕手"
   text: "公众号同名"
   tagline: 网页设计，系统定制，源码，调试部署
-  image: /img/vx.jpg
+  image: /vx.jpg
   actions:
      - theme: brand
        text: 项目定制
