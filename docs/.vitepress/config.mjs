@@ -14,6 +14,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'Java糕手',
     logo: '/logo.jpg',
+    outline: 4, // 启用 TOC
+    outlineTitle: '目录', // TOC 的标题
     nav: [
       { text: '网站首页', link: '/' },
       { text: '项目定制', link: '/main/design' },
