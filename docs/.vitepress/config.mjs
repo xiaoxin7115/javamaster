@@ -1,17 +1,14 @@
 import { defineConfig } from 'vitepress'
-const base = "/javamaster/"; // [!code ++]
-// https://vitepress.dev/reference/site-config
+const base = "/javamaster/";
 export default defineConfig({
   base,
   title: "Java糕手",
   description: "全栈开发，项目定制",
   head: [
-    // 设置 favor.ico，.vuepress/public 下
     [
       'link', { rel: 'icon', href: 'favicon.png' }
     ]],
     themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'Java糕手',
     logo: '/logo.jpg',
     outline: [1,5], // 启用 TOC
@@ -40,7 +37,7 @@ export default defineConfig({
           items: [
             { text: '项目定制', link: '/main/design' },
             { text: '源码', link: '/main/code' },
-            { text: '亮点', link: '/main/others' },
+            { text: '项目亮点添加', link: '/main/others' },
           ]
         }
       ]
