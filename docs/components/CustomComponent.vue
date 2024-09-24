@@ -36,14 +36,14 @@ import { ref, computed } from 'vue';
 
 // 模拟数据
 const projects = [
-  { name: 'Vue CLI', link: 'https://cli.vuejs.org/' },
-  { name: 'Element Plus', link: 'https://element-plus.org/' },
-  { name: 'Vuetify', link: 'https://vuetifyjs.com/' },
-  { name: 'Quasar', link: 'https://quasar.dev/' },
-  { name: 'NuxtJS', link: 'https://nuxtjs.org/' },
-  { name: 'Pinia', link: 'https://pinia.vuejs.org/' },
-  { name: 'Vue Router', link: 'https://router.vuejs.org/' },
-  { name: 'Vuex', link: 'https://vuex.vuejs.org/' },
+  { name: '社区服务管理系统', link: 'https://cli.vuejs.org/' },
+  { name: '个人博客系统', link: 'https://element-plus.org/' },
+  { name: '在线租车系统', link: 'https://vuetifyjs.com/' },
+  { name: '二手交易平台', link: 'https://quasar.dev/' },
+  { name: '在线预约挂号系统', link: 'https://nuxtjs.org/' },
+  { name: '心灵治愈系统', link: 'https://pinia.vuejs.org/' },
+  { name: '实验室预约管理系统', link: 'https://router.vuejs.org/' },
+  { name: '宿舍管理系统', link: 'https://vuex.vuejs.org/' },
 ];
 
 // 搜索框绑定的数据

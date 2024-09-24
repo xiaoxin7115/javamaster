@@ -6,6 +6,14 @@
 1. **代码绝非市面上的低质量代码，可放心运行和使用；一经售出，概不退还**
 2. **购买调试运行服务后，包调试运行成功，并可免费提供 简单问题及运行相关问题 在线管疑**
 
+## 项目名称检索/推荐
+
+<CustomComponent />
+
+<script setup>
+import CustomComponent from '../components/CustomComponent.vue'
+</script>
+
 ## 价格&介绍视频
 
 #### 价格

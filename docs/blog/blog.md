@@ -1,11 +1,7 @@
 # 博客 占位
 
 
-<CustomComponent />
 
-<script setup>
-import CustomComponent from '../components/CustomComponent.vue'
-</script>
 
 
 
