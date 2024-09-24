@@ -2,12 +2,13 @@ import { defineConfig } from 'vitepress'
 const base = "/javamaster/"; // [!code ++]
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base,
   title: "Java糕手",
   description: "全栈开发，项目定制",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: 'Java糕手',
-    logo: '../img/logo.jpg',
+    logo: `${base}/logo.jpg`,
     nav: [
       { text: '网站首页', link: '/' },
       { text: '项目定制', link: '/项目定制' },
