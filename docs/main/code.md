@@ -1,68 +1,120 @@
 # 程序源码
+
 > - 分享目的仅供学习和交流，请不要用于其他非法用途!
-> - 如有具体需求,进行项目定制，欢迎联系 [点击项目定制 | Java糕手](http://127.0.0.1:5173/javamaster/main/design.html))
+> - 如有具体需求,进行项目定制，欢迎联系 [点击项目定制](https://xiaoxin7115.github.io/javamaster/main/design.html)
 
-## 说明
-1. **代码绝非市面上的低质量代码，可放心运行和使用；一经售出，概不退还**
-2. **购买调试运行服务后，包调试运行成功，并可免费提供 简单问题及运行相关问题 在线管疑**
+# 写在前面
 
-## 项目名称检索/推荐
-> 待完善...
-<CustomComponent />
+本文将为大家介绍十个常见的系统，并提供免费获取完整源码（包含前后端源码和数据库文件）的方式；
 
-<script setup>
-import CustomComponent from '../components/CustomComponent.vue'
-</script>
+#### 系统包括：
 
-## 价格&介绍视频
+1、基于ssm的购物系统小程序
 
-#### 价格
+2、基于springboot、vue的二手交易平台
 
-- 程序源码（前后端源码及数据库sql文件）+ 配套文档   现价99/套
-- 程序源码（前后端源码及数据库sql文件）+ 远程配置调试运行  现价129/套
+3、基于springboot、vue的人力资源管理系统
 
-#### 项目介绍视频
+4、基于springboot、vue的酒店客房管理系统
 
-1、所有项目介绍视频可浏览以下链接（哔哩哔哩视频），可根据名称检索
+5、基于springboot、vue的旅游管理系统
 
-https://space.bilibili.com/484414824
+6、基于springboot、vue的社团管理系统
 
-<img src="../public/bilibili.png">
+7、基于springboot、vue、uniapp的失物招领平台
 
-2、或浏览下方的百度网盘链接
+8、基于springboot、vue的社区养老服务系统
 
-Java项目视频--链接: https://pan.baidu.com/s/14r0u9pE7veQARRqJ7CXhkw?pwd=1ju2 提取码: 1ju2 
+9、基于ssm的医院挂号小程序
 
-<img src="../public/wangpan.png">
+10、基于springboot、vue的在线考试系统
 
+#### 声明
+
+源码分享目的仅供学习和交流，请不要用于其他非法用途! 上述源码需要远程部署运行，可以联系作者，有偿服务
+
+如有具体需求，进行项目定制，欢迎联系作者
 
 
 
 
-## 开发工具及技术
 
-**开发工具**
+#### 开发工具
 
 - IntelliJ IDEA
-- Visual Studio Code
-- HBuilder
-- 微信开发者工具
 
-**编程语言：**
+- Visual Studio Code
+
+- HBuilder
+
+
+微信开发者工具
+
+#### 编程语言：
+
 - Html、Css、JavaScript
+
 - Java
 
-**框架/技术：**
+
+#### 框架/技术：
+
 - Spring、SpringMvc、SpringBoot
+
 - MyBatis/MyBatisPlus
+
 - MySQL
+
 - Vue
 
 
 
-## 其他服务
+# 系统功能介绍
 
-如需代码讲解答疑、系统设计文档等相关服务也可联系我
+具体功能介绍，参见视频好 java糕手，浏览介绍视频；或者浏览 [介绍文章](https://mp.weixin.qq.com/s/Ot9Zp0DA2XsJR2Qg1hf0ag)
+
+
+
+![image-20240925221826330](https://mind11.oss-cn-beijing.aliyuncs.com/mind/image-20240925221826330.png)
+
+一、基于ssm的购物系统小程序--功能介绍
+
+二、基于springboot、vue的二手交易平台--功能介绍
+
+三、基于springboot、vue的人力资源管理系统--功能介绍
+
+四、基于springboot、vue的酒店客房管理系统--功能介绍
+
+五、基于springboot、vue的旅游管理系统--功能介绍
+
+六、基于springboot、vue的社团管理系统--功能介绍
+
+
+七、基于springboot、vue、uniapp的失物招领平台--功能介绍
+
+八、基于springboot、vue的社区养老服务系统--功能介绍
+
+九、基于ssm的医院挂号小程序--功能介绍
+
+十、基于springboot、vue的在线考试系统--功能介绍
+
+
+
+
+# Ending
+
+本文介绍的源码获取方式：
+
+1、联系作者，获取相应源码
+
+2、关注公众号 java糕手，获取相应源码/其他源码
+
+如需代码讲解答疑等其他相关服务也可联系作者；vx：javamaster11
+
+
+
+
+
 
 
 

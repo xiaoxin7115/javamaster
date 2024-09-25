@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: '网站首页', link: '/' },
       { text: '项目定制', link: '/main/design' },
-      { text: '源码', link: '/main/code' },
+      { text: '源码获取', link: '/main/code' },
       { text: '技术博客', link: '/blog/blog' }
     ],
 
@@ -36,8 +36,15 @@ export default defineConfig({
           text: '服务介绍',
           items: [
             { text: '项目定制', link: '/main/design' },
-            { text: '源码', link: '/main/code' },
             { text: '项目亮点添加', link: '/main/others' },
+          ]
+        },
+        {
+          collapsed: true,
+          text: '源码',
+          items: [
+            { text: '常见系统源码分享', link: '/main/code' },
+            { text: '原创项目', link: '/main/my' },
           ]
         }
       ]
