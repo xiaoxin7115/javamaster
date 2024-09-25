@@ -1,32 +1,34 @@
 <template>
-  <div>
-    <div>
-      <input
-          type="text"
-          v-model="searchQuery"
-          placeholder="搜索项目名称"
-      />
-    </div>
-    <table >
-      <thead>
-      <tr>
-        <th scope="col" style="padding: 3px 6px;width: 400px">项目名称</th>
-        <th scope="col" style="padding: 3px 6px;width: 400px">项目链接</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr
-          v-for="(project, index) in filteredProjects"
-          :key="index"
-          style="background-color: white; border-bottom: 1px solid #ddd; hover: background-color: #f5f5f5;"
-      >
-        <td style="padding: 4px 6px;">{{ project.name }}</td>
-        <!--        <td class="py-4 px-6">-->
-        <!--          <a :href="project.link" target="_blank">{{ project.link }}</a>-->
-        <!--        </td>-->
-      </tr>
-      </tbody>
-    </table>
+  <div style="margin: 40px">
+    <iframe width="100%" height="500" src="//player.bilibili.com/player.html?isOutside=true&aid=835361845&bvid=BV1rg4y1k7Zd&cid=1382319641&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<!--    <div>-->
+<!--      <input-->
+<!--          type="text"-->
+<!--          v-model="searchQuery"-->
+<!--          placeholder="搜索项目名称"-->
+<!--      />-->
+<!--    </div>-->
+<!--    <table >-->
+<!--      <thead>-->
+<!--      <tr>-->
+<!--        <th scope="col" style="padding: 3px 6px;width: 400px">项目名称</th>-->
+<!--        <th scope="col" style="padding: 3px 6px;width: 400px">项目链接</th>-->
+<!--      </tr>-->
+<!--      </thead>-->
+<!--      <tbody>-->
+<!--      <tr-->
+<!--          v-for="(project, index) in filteredProjects"-->
+<!--          :key="index"-->
+<!--          style="background-color: white; border-bottom: 1px solid #ddd; hover: background-color: #f5f5f5;"-->
+<!--      >-->
+<!--        <td style="padding: 4px 6px;">{{ project.name }}</td>-->
+<!--        &lt;!&ndash;        <td class="py-4 px-6">&ndash;&gt;-->
+<!--        &lt;!&ndash;          <a :href="project.link" target="_blank">{{ project.link }}</a>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </td>&ndash;&gt;-->
+<!--      </tr>-->
+<!--      </tbody>-->
+<!--    </table>-->
   </div>
 </template>
 
